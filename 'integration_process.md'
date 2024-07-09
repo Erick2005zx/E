@@ -1,0 +1,22 @@
+'integration_process.md'
+```mermaid
+graph TD
+    A[Primeiro Dia: Boas-Vindas e Apresentação] --> B[Recepção dos Colaboradores]
+    B --> C[Apresentação da Empresa]
+    C --> D[Tour pela Empresa]
+    D --> E[Integração com a Equipe]
+
+    F[Primeira Semana: Conhecimento dos Processos e Treinamentos] --> G[Treinamento de Procedimentos Internos]
+    G --> H[Treinamento em Segurança e Normas]
+
+    I[Primeira Quinzena: Treinamento Prático e Acompanhamento] --> J[Integração Setorial]
+    J --> K[Feedback Inicial]
+
+    L[Final do Processo: Avaliação e Consolidação] --> M[Avaliação de Desempenho Inicial]
+    M --> N[Plano de Desenvolvimento Individual (PDI)]
+    N --> O[Integração Social]
+    O --> P[Revisão Final]
+
+    subgraph "Período de Integração"
+        A --> F --> I --> L
+    end
