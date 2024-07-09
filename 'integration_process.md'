@@ -1,6 +1,5 @@
 'integration_process.md'
-```mermaid
-graph TD
+'graph TD
     A[Primeiro Dia: Boas-Vindas e Apresentação] --> B[Recepção dos Colaboradores]
     B --> C[Apresentação da Empresa]
     C --> D[Tour pela Empresa]
@@ -19,4 +18,4 @@ graph TD
 
     subgraph "Período de Integração"
         A --> F --> I --> L
-    end
+    end'
